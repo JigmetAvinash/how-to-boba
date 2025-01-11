@@ -85,8 +85,8 @@ body:before {
 body:after {
     -webkit-animation: MOVE-BG 500s linear infinite;
     animation: MOVE-BG 500s linear infinite;
-    -webkit-animation-delay: 250s; /* Ritardo per creare l'effetto di loop continuo */
-    animation-delay: 250s; /* Ritardo per creare l'effetto di loop continuo */
+    -webkit-animation-delay: 250s;
+    animation-delay: 250s;
 }
 
 @-webkit-keyframes MOVE-BG {
